@@ -1,0 +1,8 @@
+@media only screen and (max-width: 768px) {
+	.index#baner{
+		height: 400px
+	}
+	.W-md-75{
+		width: 100%;
+	}
+}
