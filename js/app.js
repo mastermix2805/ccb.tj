@@ -28,16 +28,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
 	
 	//baner
 	
-	var owl = $('.owl-carousel');
-	owl.owlCarousel({
-	    items: 1,
-	    loop:true,
-	    margin:10,
-	    autoplay:true,
-	    autoplayTimeout:6000,
-	    autoplayHoverPause:true
-	});
-
+	
+	//news slider
+	
 
 })
 

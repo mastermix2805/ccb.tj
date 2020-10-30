@@ -17,6 +17,19 @@ a:hover{
 	text-decoration: none;
 }
 
+content{
+	display: block;
+}
+
+.or-md-1{
+	order: 1
+}
+.or-md-2{
+	order: 2
+}
+.w-md-auto{
+	width: auto;
+}
 /* header start*/
 
 
@@ -264,6 +277,23 @@ footer small>a:hover::before{
 	border-radius: 10px;
 	padding: 20px;
 }
+.index #product #product-item>div h5{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+}
+.index #product #product-item>div h4{
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 28px;
+}
+.index #product #product-item>div p{
+	margin-top: 30px;
+	font-size: 16px;
+	line-height: 22px;
+}
+
 .index #card{
 	background: #EAECF0;
 }
@@ -379,6 +409,8 @@ footer small>a:hover::before{
 .index #predprinimatelstvo{
 	background: #EAECF0;
 	color: #0B1F35;
+	height: 400px;
+	overflow: hidden;
 }
 .index #predprinimatelstvo h1{
 	font-weight: 500;
@@ -389,7 +421,10 @@ footer small>a:hover::before{
 	font-size: 20px;
 	line-height: 30px;
 }
-
+.index #predprinimatelstvo .imageDevelop:hover{
+	transition: all 0.2s linear;
+	transform: scale(1.1);
+}
 .index #monyCours #cours{border: 2px solid #EAECF0;border-radius: 10px; overflow: auto;}
 
 .index #monyCours h2{
@@ -516,3 +551,98 @@ footer small>a:hover::before{
 
 /*index end content */
 
+#breadcrumb .breadcrumb{
+	background-color: transparent;
+	margin-bottom: 0px;
+}
+#breadcrumb .breadcrumb .breadcrumb-item{
+	font-size: 16px;
+	line-height: 19px;
+}
+
+/*DetiledNews start */
+
+#DetiledNews h1	{
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+}
+#DetiledNews small#day{
+	display: block;
+	margin: 30px 0px;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(11, 31, 53, 0.5);
+}
+#DetiledNews .image{
+	height: 500px;
+}
+#DetiledNews #textWrapper p{
+	font-size: 18px;
+	line-height: 30px;
+
+}
+#DetiledNews #textWrapper{
+	padding: 0px 80px
+}
+
+#DetiledNews .slider .owl-carousel .item{
+	height: 180px;
+
+}
+#DetiledNews .slider .owl-carousel .item a{
+	display: block;
+	position: relative;
+	border-radius: 10px;
+	border: 1px solid #EAECF0;
+	z-index: 2;
+}
+#DetiledNews .slider .owl-carousel .item a img{
+	border-radius: 10px; 
+}
+#DetiledNews .slider .owl-carousel .item a:hover::before{
+	content: "";
+	display: inline-block;
+	background-color: rgba(0,0,0, 0.5);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	border-radius: 10px;
+	height: 100%;
+}
+#DetiledNews .slider .owl-carousel{
+	position: relative;
+}
+#DetiledNews .slider .owl-carousel .owl-stage{
+	position: relative;
+	z-index: 3
+}
+#DetiledNews .slider .owl-carousel .owl-nav{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+	top: -10px;
+	left: 0px;
+}
+#DetiledNews .slider .owl-carousel .owl-nav .owl-prev, .owl-next{
+	position: relative;
+	z-index: 5
+}
+
+#DetiledNews .slider .owl-carousel .owl-nav .owl-prev span, .owl-next span{
+	font-size: 4em;
+	color: rgba(11, 31, 53, 0.5);
+}
+#DetiledNews .slider .owl-carousel .owl-nav .owl-prev:focus, .owl-next:focus{
+	outline: 0px;
+}
+#DetiledNews .slider .owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent; 
+    color: #FFF;
+    text-decoration: none;
+}
+/*DetiledNews end */

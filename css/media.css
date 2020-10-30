@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 992px) {
+
+}
 @media only screen and (max-width: 768px) {
 	.index#baner{
 		height: 400px
@@ -5,4 +11,25 @@
 	.W-md-75{
 		width: 100%;
 	}
+	#DetiledNews .image{
+		height: 300px;
+	}
+	#DetiledNews #textWrapper{
+		padding: 0px 20px
+	}
+	.or-md-1{
+		order: 2
+	}
+	.or-md-2{
+		order: 1
+	}
+	.w-md-auto{
+		width: 100%;
+	}
+	.index #predprinimatelstvo{
+		height: auto ! important;
+	}
+}
+@media only screen and (max-width: 576px) {
+
 }
