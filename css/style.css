@@ -112,7 +112,7 @@ header button:focus {
 header .navbar-nav li>a{
 	font-size: 16px;
 	line-height: 19px;
-	margin: auto 5px;
+	margin: auto 20px;
 	color: #0B1F35 !important;
 }
 header .navbar-nav li>a:hover{
@@ -122,7 +122,7 @@ header .navbar-nav li>a:hover{
 header #bottomNavHeader a{
 	font-size: 16px;
 	line-height: 19px;
-	margin-right: 20px;
+	margin-right: 40px;
 
 }
 
@@ -307,24 +307,24 @@ footer small>a:hover::before{
 	line-height: 25px;
 }
 
-.index #depositCalculator .slideWrapper{
+ #depositCalculator .slideWrapper{
 	background: #E8F2FE;
 	border-radius: 10px;
 	position: relative;
 }
-.index #depositCalculator p{
+ #depositCalculator p{
 	font-size: 18px;
 	line-height: 21px;
 	margin-bottom: 0px;
 }
-.index #depositCalculator .slideWrapper h5{
+ #depositCalculator .slideWrapper h5{
 	font-size: 32px;
 	line-height: 37px;
 	font-weight: bold;
 	margin-bottom: 0px;
 }
 /*RANG*/
-.index #depositCalculator input[type=range].input-range--custom {
+ input[type=range].input-range--custom {
   	-webkit-appearance: none;
 	-moz-appearance: none;
   	width: 100%;
@@ -333,22 +333,22 @@ footer small>a:hover::before{
   	position: absolute;
   	bottom: 0px
 }
-.index #depositCalculator input[type=range].input-range--custom:focus {
+input[type=range].input-range--custom:focus {
   	outline: none;
 }
-.index #depositCalculator input[type=range].input-range--custom::-webkit-slider-runnable-track {
+input[type=range].input-range--custom::-webkit-slider-runnable-track {
 	width: 100%;
 	height: 4px;
 	cursor: pointer;
 	border-radius: 4.3px;
 }
-.index #depositCalculator input[type=range].input-range--custom::-moz-range-track {
+ input[type=range].input-range--custom::-moz-range-track {
   	width: 100%;
   	height: 1px !important;
   	cursor: pointer;
   	border-radius: 1.3px !important;
 }
-.index #depositCalculator input[type=range].input-range--custom::-webkit-slider-thumb {
+input[type=range].input-range--custom::-webkit-slider-thumb {
   	border: 5px solid #CC1818;
   	height: 18px;
   	width: 18px;
@@ -359,7 +359,7 @@ footer small>a:hover::before{
   	margin-top: -7.5px;
   	transform: scale(1.2);
 }
-.index #depositCalculator input[type=range].input-range--custom::-moz-range-thumb {
+input[type=range].input-range--custom::-moz-range-thumb {
  	border: 5px solid #CC1818;
   	height: 18px;
   	width: 18px;
@@ -371,15 +371,15 @@ footer small>a:hover::before{
   	transform: scale(1.2);
 }
 /*RANG*/
-.index #depositCalculator .wrapperCalc{
+#depositCalculator .wrapperCalc{
 	background: #EAECF0;
 	border-radius: 10px;
 }
-.index #depositCalculator .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+ #depositCalculator .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #0B1F35;
 }			
-.index #depositCalculator .nav-pills .nav-link {
+#depositCalculator .nav-pills .nav-link {
     border-radius: .25rem;
     background: #F5F5F5;
 	border-radius: 4px;
@@ -389,17 +389,17 @@ footer small>a:hover::before{
 	color: rgba(0, 0, 0, 0.5);
 	border-radius: 4px;
 }
-.index #depositCalculator #OuteCome{
+#depositCalculator #OuteCome{
 	border: 2px solid #EAECF0;
 	border-radius: 10px;
 }
-.index #depositCalculator #OuteCome h5{
+ #depositCalculator #OuteCome h5{
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 23px;
 	color: #0B1F35;
 }
-.index #depositCalculator #OuteCome h2{
+#depositCalculator #OuteCome h2{
 	font-weight: bold;
 	font-size: 48px;
 	line-height: 56px;
@@ -509,17 +509,9 @@ footer small>a:hover::before{
 	position: relative;
 	padding-bottom: 20px;
 }
-.index #news a:hover>::before{
-	content: "";
-	position: absolute;
-	background-color: rgba(0,0,0, 0.09);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	border-radius: 10px;
-}  
+.index #news a:hover p{
+	color: red
+}
 .index #news .ourNews{
 	font-weight: 500;
 	font-size: 16px;
@@ -614,9 +606,9 @@ footer small>a:hover::before{
 #DetiledNews .slider .owl-carousel{
 	position: relative;
 }
-#DetiledNews .slider .owl-carousel .owl-stage{
+#DetiledNews .slider .owl-carousel .owl-stage-outer{
 	position: relative;
-	z-index: 3
+	z-index: 1
 }
 #DetiledNews .slider .owl-carousel .owl-nav{
 	position: absolute;
@@ -646,3 +638,203 @@ footer small>a:hover::before{
     text-decoration: none;
 }
 /*DetiledNews end */
+
+/*Perevods start */
+
+#Perevods #PerevodBaner{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+#Perevods #PerevodBaner #PerevodBanerImage{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#Perevods #PerevodBaner #perevodsBanerText{
+	position: relative;
+	z-index: 1
+}
+#Perevods #PerevodBaner #perevodsBanerText h1{
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 40px;
+	color: white
+}
+#Perevods #PerevodBaner #perevodsBanerText p{
+	font-weight: 500;
+	font-size: 20px;
+	color: white
+}
+#Perevods .PerevodsText h4{
+	font-size: 24px;
+	line-height: 30px;
+}
+#Perevods .PerevodsText p{
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+#Perevods .PerevodsText p>a{
+	color:#CC1818;
+	border-bottom: 1px solid #CC1818;
+}
+#Perevods .PerevodsText p>a:hover{
+	color: red;
+	border-bottom: 1px solid red;
+}
+/*Perevods end */
+
+/*credit start*/
+
+#Products #baner{
+	background: #E7E8ED;
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+}
+#Products #baner h1{
+	font-size: 36px;
+	line-height: 40px;
+}
+#Products #baner ul{
+	margin-left: 20px;
+	margin-bottom: 	0px;
+}
+#Products #baner ul li{
+	color: red;
+	font-size: 18px;
+	line-height: 40px;
+}
+#Products #baner ul li span{
+	color: black
+}
+.bg-ops{
+	background: rgba(232, 242, 254, 0.5);
+	border-radius: 5px
+}
+
+#Products #PlansDogovor p{
+	margin-bottom: 0px;
+	font-size: 16px;
+	line-height: 40px;
+	padding: 30px;	
+}
+#Products #PlansDogovor .row{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+#Products #PlansDogovor .row:last-child{
+	border-color: transparent;
+}
+
+
+#Products #dogovor .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: rgba(11, 31, 53, 0.5);
+	border-bottom: 5px solid transparent
+}
+#Products #dogovor .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    color: red;
+    border-bottom: 5px solid #CC1818
+}
+#Products #dogovor table tbody td{
+	font-size: 16px;
+	line-height: 24px;
+	padding: 30px;
+	width: 300px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25)
+}
+#Products #dogovor table tbody tr:last-child td{
+	border-bottom: 0px solid transparent
+}
+#Products #dogovor table tbody .border-bottom{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important
+}
+#Products #dogovor table tbody .border-right{
+	border-right: 1px solid rgba(0, 0, 0, 0.25) !important
+}
+ 
+#Products #application{
+	background: #EAECF0;
+}
+#Products #application h1{
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+}
+#Products #application form{
+	display: block;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+#Products #application form .inp label{
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 0px;
+}
+#Products #application form .inp{
+	border-color: transparent;
+	height: 60px;
+	background: #F2F3F4;
+	border-radius: 4px;
+	padding: 0px 30px;
+	font-size: 16px;
+	line-height: 19px;
+	color: black
+}
+#Products #application form .inp .form-control{
+	background-color: transparent;
+	border-color: transparent;
+}
+#Products #application form .inp .form-control:focus{
+	box-shadow: 0px 0px 0px transparent
+}
+#Products #application form .check label{
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left ! important;
+}
+#Products #application form button{
+	padding: 20px 0px;
+	background: #CC1818;
+	border-radius: 4px;
+	font-size: 18px;
+	line-height: 21px;
+	color: white
+}
+#Products #application form button:hover{
+	background-color: #A61414
+}
+#Products #depositCalculator h1{
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+}
+/*credit end*/
+/*Deposit start */
+.Deposit #baner p{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 25px;
+}
+.Deposit #baner{
+	position: relative;
+}
+.Deposit #baner .depImage{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1
+}
+/*Deposit end */
